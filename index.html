@@ -41,7 +41,9 @@
   </head>
   <body>
     <div id="app" class="container mt-5">
-      <p>{{mail}}</p>
+      <ul>
+        <li v-for="mail in mails">{{mail}}</li>
+      </ul>
     </div>
   </body>
 </html>
